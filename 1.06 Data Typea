@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variables of different data types
+    int integer = 42;
+    float floating = 3.14159;
+    double doublePrecision = 2.718281828459;
+    char character = 'A';
+    char string[] = "Hello, World!";
+
+    // Print the values of the variables
+    printf("Integer: %d\n", integer);
+    printf("Floating point: %.5f\n", floating);
+    printf("Double precision: %.12lf\n", doublePrecision);
+    printf("Character: %c\n", character);
+    printf("String: %s\n", string);
+
+    return 0;
+}

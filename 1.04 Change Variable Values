@@ -1,0 +1,35 @@
+#include <stdio.h>
+
+int main() {
+    // Declare and initialize variables
+    int integer = 42;
+    float floating = 3.14159;
+    double doublePrecision = 2.718281828459;
+    char character = 'A';
+    char string[] = "Hello, World!";
+
+    // Print initial values
+    printf("Initial values:\n");
+    printf("Integer: %d\n", integer);
+    printf("Floating point: %.5f\n", floating);
+    printf("Double precision: %.12lf\n", doublePrecision);
+    printf("Character: %c\n", character);
+    printf("String: %s\n", string);
+
+    // Change variable values
+    integer = 100;
+    floating = 2.71828;
+    doublePrecision = 3.141592653589;
+    character = 'B';
+    snprintf(string, sizeof(string), "I am Akah");
+
+    // Print new values
+    printf("\nNew values:\n");
+    printf("Integer: %d\n", integer);
+    printf("Floating point: %.5f\n", floating);
+    printf("Double precision: %.12lf\n", doublePrecision);
+    printf("Character: %c\n", character);
+    printf("String: %s\n", string);
+
+    return 0;
+}

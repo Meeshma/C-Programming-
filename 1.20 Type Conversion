@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    int integer = 42;
+    float floating = 3.14159;
+    double doublePrecision = 2.718281828459;
+    char character = 'A';
+
+    // Implicit type conversion
+    double result1 = integer + floating; // int to float
+    printf("Result of implicit conversion (int + float): %.2f\n", result1);
+
+    // Explicit type conversion
+    int result2 = (int)doublePrecision + character; // double to int, char to int
+    printf("Result of explicit conversion (double + char): %d\n", result2);
+
+    // More explicit type conversion examples
+    float result3 = (float)integer / 2; // int to float
+    printf("Result of explicit conversion (int / 2): %.2f\n", result3);
+
+    double result4 = (double)integer / 3; // int to double
+    printf("Result of explicit conversion (int / 3): %.2lf\n", result4);
+
+    return 0;
+}

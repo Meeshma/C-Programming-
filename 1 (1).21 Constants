@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+// Define constants using #define
+#define PI 3.14159
+#define GREETING "Hello, World!"
+
+// Define constants using const keyword
+const int DAYS_IN_WEEK = 7;
+const float GRAVITY = 9.81;
+
+int main() {
+    // Print the values of the constants
+    printf("PI: %.5f\n", PI);
+    printf("Greeting: %s\n", GREETING);
+    printf("Days in a week: %d\n", DAYS_IN_WEEK);
+    printf("Gravity: %.2f m/s^2\n", GRAVITY);
+
+    return 0;
+}

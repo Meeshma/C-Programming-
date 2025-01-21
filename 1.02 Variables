@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    int number = 10;
+    float decimal = 3.14;
+    char character = 'A';
+    char str1[] = "Wakanda";
+    char str2[] = "I am Akah";
+
+    // Use variables
+    printf("%s\n", str1); // Print "Hello, World!"
+    printf("Number: %d\n", number);
+    printf("Decimal: %.2f\n", decimal);
+    printf("Character: %c\n", character);
+    printf("%s\n", str2); // Print "I am Akah"
+
+    return 0;
+}

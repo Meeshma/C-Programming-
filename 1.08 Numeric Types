@@ -1,0 +1,23 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variables of different numeric types
+    int integer = 42;
+    unsigned int unsignedInteger = 100;
+    short shortInteger = -32768;
+    long longInteger = 1234567890;
+    float floating = 3.14159;
+    double doublePrecision = 2.718281828459;
+    long double longDoublePrecision = 1.618033988749895;
+
+    // Print the values of the variables
+    printf("Integer: %d\n", integer);
+    printf("Unsigned Integer: %u\n", unsignedInteger);
+    printf("Short Integer: %hd\n", shortInteger);
+    printf("Long Integer: %ld\n", longInteger);
+    printf("Floating point: %.5f\n", floating);
+    printf("Double precision: %.12lf\n", doublePrecision);
+    printf("Long double precision: %.15Lf\n", longDoublePrecision);
+
+    return 0;
+}

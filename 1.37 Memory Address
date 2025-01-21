@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    int integer = 42;
+    float floating = 3.14159;
+    char character = 'A';
+
+    // Declare pointers
+    int *intPtr = &integer;
+    float *floatPtr = &floating;
+    char *charPtr = &character;
+
+    // Print the memory addresses
+    printf("Address of integer: %p\n", (void*)intPtr);
+    printf("Address of floating: %p\n", (void*)floatPtr);
+    printf("Address of character: %p\n", (void*)charPtr);
+
+    return 0;
+}

@@ -1,0 +1,30 @@
+#include <stdio.h>
+
+int main() {
+    // Declare char variables
+    char letter = 'A';
+    char digit = '5';
+    char specialChar = '#';
+    char string[] = "Hello, World!";
+
+    // Print the values of the char variables
+    printf("Letter: %c\n", letter);
+    printf("Digit: %c\n", digit);
+    printf("Special Character: %c\n", specialChar);
+    printf("String: %s\n", string);
+
+    // Modify char variables
+    letter = 'B';
+    digit = '9';
+    specialChar = '@';
+    snprintf(string, sizeof(string), "I am Akah");
+
+    // Print the new values of the char variables
+    printf("\nNew values:\n");
+    printf("Letter: %c\n", letter);
+    printf("Digit: %c\n", digit);
+    printf("Special Character: %c\n", specialChar);
+    printf("String: %s\n", string);
+
+    return 0;
+}

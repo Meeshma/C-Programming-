@@ -1,0 +1,37 @@
+#include <stdio.h>
+
+// Global variable
+int globalVar = 10;
+
+// Function declarations
+void localScope();
+void globalScope();
+void staticScope();
+
+int main() {
+    // Call functions to demonstrate variable scope
+    localScope();
+    globalScope();
+    staticScope();
+    staticScope(); // Call again to show static variable behavior
+
+    return 0;
+}
+
+// Function to demonstrate local scope
+void localScope() {
+    int localVar = 5; // Local variable
+    printf("Local variable: %d\n", localVar);
+}
+
+// Function to demonstrate global scope
+void globalScope() {
+    printf("Global variable: %d\n", globalVar);
+}
+
+// Function to demonstrate static scope
+void staticScope() {
+    static int staticVar = 0; // Static variable
+    staticVar++;
+    printf("Static variable: %d\n", staticVar);
+}

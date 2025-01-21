@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    // Declare a string with special characters
+    char str[] = "Hello,\nWorld!\tWelcome to C programming.\n";
+
+    // Print the string
+    printf("%s", str);
+
+    return 0;
+}

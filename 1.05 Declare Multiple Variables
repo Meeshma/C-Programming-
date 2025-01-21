@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+    // Declare multiple variables
+    int integer1 = 10, integer2 = 20;
+    float float1 = 3.14, float2 = 2.71;
+    char char1 = 'A', char2 = 'B';
+    char str1[] = "Hello", str2[] = "World";
+
+    // Print the values of the variables
+    printf("Integer1: %d, Integer2: %d\n", integer1, integer2);
+    printf("Float1: %.2f, Float2: %.2f\n", float1, float2);
+    printf("Char1: %c, Char2: %c\n", char1, char2);
+    printf("Str1: %s, Str2: %s\n", str1, str2);
+
+    return 0;
+}

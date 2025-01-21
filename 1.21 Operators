@@ -1,0 +1,63 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    int a = 10, b = 5;
+    int result;
+
+    // Arithmetic operators
+    result = a + b;
+    printf("Addition: %d + %d = %d\n", a, b, result);
+
+    result = a - b;
+    printf("Subtraction: %d - %d = %d\n", a, b, result);
+
+    result = a * b;
+    printf("Multiplication: %d * %d = %d\n", a, b, result);
+
+    result = a / b;
+    printf("Division: %d / %d = %d\n", a, b, result);
+
+    result = a % b;
+    printf("Modulus: %d %% %d = %d\n", a, b, result);
+
+    // Relational operators
+    printf("Equal to: %d == %d = %d\n", a, b, a == b);
+    printf("Not equal to: %d != %d = %d\n", a, b, a != b);
+    printf("Greater than: %d > %d = %d\n", a, b, a > b);
+    printf("Less than: %d < %d = %d\n", a, b, a < b);
+    printf("Greater than or equal to: %d >= %d = %d\n", a, b, a >= b);
+    printf("Less than or equal to: %d <= %d = %d\n", a, b, a <= b);
+
+    // Logical operators
+    printf("Logical AND: %d && %d = %d\n", a, b, a && b);
+    printf("Logical OR: %d || %d = %d\n", a, b, a || b);
+    printf("Logical NOT: !%d = %d\n", a, !a);
+
+    // Bitwise operators
+    printf("Bitwise AND: %d & %d = %d\n", a, b, a & b);
+    printf("Bitwise OR: %d | %d = %d\n", a, b, a | b);
+    printf("Bitwise XOR: %d ^ %d = %d\n", a, b, a ^ b);
+    printf("Bitwise NOT: ~%d = %d\n", a, ~a);
+
+    // Assignment operators
+    result = a;
+    printf("Assignment: result = %d\n", result);
+
+    result += b;
+    printf("Add and assign: result += %d = %d\n", b, result);
+
+    result -= b;
+    printf("Subtract and assign: result -= %d = %d\n", b, result);
+
+    result *= b;
+    printf("Multiply and assign: result *= %d = %d\n", b, result);
+
+    result /= b;
+    printf("Divide and assign: result /= %d = %d\n", b, result);
+
+    result %= b;
+    printf("Modulus and assign: result %%= %d = %d\n", b, result);
+
+    return 0;
+}

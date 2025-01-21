@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main() {
+    // Declare a variable
+    int count = 1;
+
+    // Do...while loop
+    do {
+        printf("Count: %d\n", count);
+        count++;
+    } while (count <= 5);
+
+    return 0;
+}

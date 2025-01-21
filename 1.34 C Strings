@@ -1,0 +1,27 @@
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    // Declare and initialize strings
+    char str1[] = "Hello";
+    char str2[] = "World";
+    char str3[20];
+
+    // Print the strings
+    printf("String 1: %s\n", str1);
+    printf("String 2: %s\n", str2);
+
+    // Concatenate strings
+    strcpy(str3, str1); // Copy str1 to str3
+    strcat(str3, " ");  // Concatenate a space to str3
+    strcat(str3, str2); // Concatenate str2 to str3
+
+    // Print the concatenated string
+    printf("Concatenated String: %s\n", str3);
+
+    // Get the length of a string
+    int length = strlen(str3);
+    printf("Length of Concatenated String: %d\n", length);
+
+    return 0;
+}

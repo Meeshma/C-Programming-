@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variables
+    int number = 10;
+
+    // If...else if...else statement
+    if (number > 0) {
+        printf("The number is positive.\n");
+    } else if (number < 0) {
+        printf("The number is negative.\n");
+    } else {
+        printf("The number is zero.\n");
+    }
+
+    // Another example with multiple conditions
+    int age = 20;
+
+    if (age < 13) {
+        printf("You are a child.\n");
+    } else if (age >= 13 && age < 20) {
+        printf("You are a teenager.\n");
+    } else {
+        printf("You are an adult.\n");
+    }
+
+    return 0;
+}

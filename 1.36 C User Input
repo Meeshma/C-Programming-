@@ -1,0 +1,31 @@
+#include <stdio.h>
+
+int main() {
+    // Declare variables to store user input
+    int integer;
+    float floating;
+    char character;
+    char string[50];
+
+    // Get user input
+    printf("Enter an integer: ");
+    scanf("%d", &integer);
+
+    printf("Enter a floating-point number: ");
+    scanf("%f", &floating);
+
+    printf("Enter a character: ");
+    scanf(" %c", &character); // Note the space before %c to consume any leftover newline character
+
+    printf("Enter a string: ");
+    scanf("%s", string);
+
+    // Print the user input
+    printf("\nYou entered:\n");
+    printf("Integer: %d\n", integer);
+    printf("Floating-point number: %.2f\n", floating);
+    printf("Character: %c\n", character);
+    printf("String: %s\n", string);
+
+    return 0;
+}

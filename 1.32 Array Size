@@ -1,0 +1,12 @@
+#include <stdio.h>
+
+int main() {
+    // Declare and initialize an array
+    int numbers[] = {1, 2, 3, 4, 5};
+    int size = sizeof(numbers) / sizeof(numbers[0]);
+
+    // Print the size of the array
+    printf("The size of the array is: %d\n", size);
+
+    return 0;
+}
